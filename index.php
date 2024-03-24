@@ -17,7 +17,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS do projeto -->
-    <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
+    <link rel="stylesheet" href="<?= $BASE_URL ?>/css/styles.css">
 </head>
 <body>
     <header>
@@ -34,13 +34,10 @@
             <form action="" method="GET" id="search-form" class="form-inline my-2 my-lg-0">
                 <input type="text" name="q" id="search" class="form-control mr-sm-2" type="search"
                 placeholder="Buscar Filmes" aria-label="Search">
-                <!-- <button class="btn my-2 my-sm-0" type="submit">
-                    <i class="fas fa-search"></i>
-                </button> -->
-            </form>
-            <button class="btn my-2 my-sm-0" type="submit">
+                <button class="btn my-2 my-sm-0" type="submit">
                     <i class="fas fa-search"></i>
                 </button>
+            </form>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -54,7 +51,7 @@
         <h1>Corpo do site</h1>
     </div>
     <footer id="footer">
-        <div class="social-container">
+        <div id="social-container">
             <ul>
                 <li>
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
