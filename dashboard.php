@@ -44,7 +44,7 @@
               <form action="<?= $BASE_URL ?>movie_process.php" method="POST">
                 <input type="hidden" name="type" value="delete">
                 <input type="hidden" name="id" value="<?= $movie->id ?>">
-                <button type="submit" class="delete-btn">
+                <button type="submit" class="delete-btn mt-2">
                   <i class="fas fa-times"></i> Deletar
                 </button>
               </form>
