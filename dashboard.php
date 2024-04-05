@@ -34,9 +34,9 @@
         <tbody>
           <?php foreach($userMovies as $movie): ?>
           <tr>
-            <td scope="row"><?= $movie->id ?></td>
-            <td><a href="<?= $BASE_URL ?>movie.php?id=<?= $movie->id ?>" class="table-movie-title"><?= $movie->title ?></a></td>
-            <td><i class="fas fa-star"></i> <?= $movie->rating ?></td>
+            <td scope="row" class="align-middle"><?= $movie->id ?></td>
+            <td class="align-middle"><a href="<?= $BASE_URL ?>movie.php?id=<?= $movie->id ?>" class="table-movie-title"><?= $movie->title ?></a></td>
+            <td class="align-middle"><i class="fas fa-star"></i> <?= $movie->rating ?></td>
             <td class="actions-column">
               <a href="<?= $BASE_URL ?>editmovie.php?id=<?= $movie->id ?>" class="edit-btn">
                 <i class="far fa-edit"></i> Editar
