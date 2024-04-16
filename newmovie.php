@@ -12,7 +12,7 @@
 
 ?>
   <div id="main-container" class="container-fluid">
-    <div class="offset-md-4 col-md-4 new-movie-container">
+    <div class="offset-md-4 col-md-6 new-movie-container">
       <h1 class="page-title">Adicionar Filme</h1>
       <p class="page-description">Adicione seu novo filme e compartilhe com o mundo!</p>
       <form action="<?= $BASE_URL ?>movie_process.php" id="add-movie-form" method="POST" enctype="multipart/form-data">
