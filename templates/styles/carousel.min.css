@@ -1,0 +1,197 @@
+.car-carousel,
+.car-carousel .car-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    min-height: 150px;
+    height: 160px;
+    overflow: none;
+}
+
+.car-carousel {
+    display: none;
+    top: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+.car-carousel .car-estado {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+}
+
+.car-carousel .car-estado:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    overflow-y: none;
+}
+
+.car-carousel .car-estado-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    overflow-y: none;
+}
+
+.car-carousel .car-item,
+.car-carousel .car-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    overflow-y: none;
+}
+
+.car-carousel .car-item {
+    min-height: 200px;
+    height: 250px;
+    float: left;
+    background: rgb(207, 207, 207);
+    width: 150px;
+    min-width: 100px;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    overflow-y: none;
+}
+
+.car-carousel .car-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-y: none;
+}
+
+.car-carousel .car-dots.disabled,
+.car-carousel .car-nav.disabled {
+    display: none;
+}
+
+.no-js .car-carousel,
+.car-carousel.car-loaded {
+    display: block;
+    overflow-y: none;
+}
+
+.car-carousel .car-dot,
+.car-carousel .car-nav .car-next,
+.car-carousel .car-nav .car-prev {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: none;
+}
+
+.car-carousel .car-nav button.car-next,
+.car-carousel .car-nav button.car-prev,
+.car-carousel button.car-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    overflow-y: none;
+}
+
+.car-carousel .car-nav button.car-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(27, 27, 27);
+    color: rgb(199, 199, 199);
+    width: 50px;
+    min-height: 100px;
+    height: 150%;
+    opacity: 0.5;
+    font-size: 60px;
+}
+
+.car-carousel .car-nav button.car-prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(27, 27, 27);
+    color: rgb(199, 199, 199);
+    width: 50px;
+    min-height: 100px;
+    height: 150%;
+    opacity: 0.5;
+    font-size: 60px;
+}
+
+.car-carousel.car-loading {
+    opacity: 0;
+    display: block;
+    overflow-y: none;
+}
+
+.car-carousel.car-hidden {
+    opacity: 0;
+    overflow-y: none;
+}
+
+.car-carousel.car-refresh .car-item {
+    visibility: hidden;
+}
+
+.car-carousel.car-drag .car-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.car-carousel.car-grab {
+    cursor: move;
+    cursor: grab;
+    overflow-y: none;
+}
+
+.car-carousel.car-rtl {
+    direction: rtl;
+}
+
+.car-carousel.car-rtl .car-item {
+    float: right;
+}
+
+.car-carousel .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.car-carousel .car-animated-in {
+    z-index: 0;
+}
+
+.car-carousel .car-animated-out {
+    z-index: 1;
+}
+
+.car-carousel .fadeOut {
+    animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.car-height {
+    transition: height .5s ease-in-out;
+}

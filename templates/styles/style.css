@@ -1,0 +1,100 @@
+html {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#had {
+    background: #1ccacd;
+    padding: 5rem 0;
+}
+
+#had .car-logo {
+    margin: 0 auto;
+    display: block;
+}
+
+#had h1 {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 3.375rem;
+    margin: 0rem;
+}
+
+#had h4 {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1.500rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#had .had-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-right: 0.75rem;
+    font-size: 1.250rem;
+    font-weight: 400;
+    background: #FFF;
+    color: #1ccacd;
+    border: 1px solid #FFF;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+#had .had-button.outline {
+    background: transparent;
+    color: #ffffff;
+}
+
+#had .had-button:hover {
+    background: #ff3f4d;
+    border: 1px solid #ff3f4d;
+    color: #FFF;
+}
+
+#had p {
+    color: #FFF;
+    margin: 0.5rem 0;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    #had {
+        padding: 2rem 0;
+    }
+    #had h1 {
+        color: #FFF;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    #had h4 {
+        color: #FFF;
+        font-weight: 300;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+#slaide {
+    overflow: hidden;
+}
+
+#slaide .item video {
+    position: absolute;
+    top: 0px;
+    height: 93%;
+    width: 100%;
+    background: rgb(23, 21, 21);
+}
