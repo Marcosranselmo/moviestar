@@ -21,7 +21,7 @@
       <h2 class="section-title">Filmes novos</h2>
       <p class="section-description">Veja as críticas dos últimos filmes adicionados no MovieStar</p>
       <iframe id='slide'>
-      <div class="movies-container">
+        <div class="movies-container">
 
           <?php foreach($latestMovies as $movie): ?>
             <?php require("templates/movie_card.php"); ?>
@@ -30,7 +30,7 @@
             <p class="empty-list">Ainda não há filmes cadastrados!</p>
           <?php endif; ?>
         
-      </div>
+        </div>
       </iframe>
 
 
