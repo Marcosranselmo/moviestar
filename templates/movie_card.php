@@ -6,41 +6,13 @@
 
 ?>
 
-
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-
-    <!-- head -->
-    <meta charset="utf-8 ">
-    <meta name="viewport " content="width=device-width, initial-scale=1.0 " />
-
-    <title>
-        Responsive Carousel </title>
-
-    <!-- Stylesheets -->
-
-    <link rel="stylesheet " href="styles/style.css ">
-
-
-    <link rel="stylesheet " href="styles/carousel.min.css ">
-
-
-    <!-- javascript -->
-    <!-- <script src="scripts/jquery-3.5.1.min.js"></script>
-    <script src="scripts/carousel.js "></script> -->
-    <script src="scripts/jquery-3.5.1.min.js"></script>
-    <script src="scripts/carousel.js"></script>
-</head>
-
-<body>
+<!-- <body> -->
 
     <!--  Demos -->
-    <section id="slaide">
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="car-carousel car-theme">
+    <!-- <section id="slaide"> -->
+        <!-- <div class="row">
+          <div class="large-12 columns"> -->
+            <!-- <div class="car-carousel car-theme"> -->
 
 
               <div class="card movie-card">
@@ -58,7 +30,7 @@
                 </div>
               </div>
 
-              <script>
+              <!-- <script>
                 $(document).ready(function() {
                     $('.car-carousel').carCarousel({
                         loop: false,
@@ -82,12 +54,11 @@
                         }
                     })
                 })
-              </script>
-            </div>
-          </div>        
-        </div>
-    </section>
+              </script> -->
+            <!-- </div> -->
+     <!--      </div>        
+        </div> -->
+  <!--   </section> -->
 
-</body>
+<!-- </body> -->
 
-</html>
